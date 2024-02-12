@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto','Montserrat', sans-serif;   
+}
+body{
+    height: 100vh;
+    background-color: rgb(224, 224, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:340px;
+    height: 445px;
+    border-style: groove;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px grey ;
+    border: 1px;
+    
+}
+.card__imagen1{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+   /* object-position: center;*/
+}
+
+.card__imagen2{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center -112px;
+}
+
+.card__imagen3{
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center -112px;
+
+}
+img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px ;
+}
+
+.card__texto{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    
+}
+.card__titulo1{
+    font-size: 25px ;
+    padding-bottom: 20px;
+    padding-right: 104px;
+}
+.card__titulo2{
+    font-size: 25px ;
+    padding-bottom: 20px;
+    padding-right: 68px;
+}
+
+.card__titulo3{
+    font-size: 25px ;
+    padding-bottom: 20px;
+    padding-right: 131px;
+}
+
+.card__descripcion{
+    font-size: 15px;
+    color: rgb(109, 105, 105);
+    line-height: 1.5;
+}
+.card__descripcion--resaltar{
+    font-weight: bold;
+}
+.card__boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__boton--caja{
+    height: 50px;
+    width: 300px;
+    margin: 30px;
+    background-color: #e7f0f4;
+    color: rgb (33, 66, 184);
+    border: 1px ;
+    border-radius: 2px;
+    font-size: 20px;
+    color: rgb(4, 141, 209);
+}
